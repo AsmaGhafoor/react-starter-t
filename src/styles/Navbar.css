@@ -1,0 +1,12 @@
+/* src/components/Layout/Navbar.css */
+
+.offcanvas.show {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.offcanvas {
+  visibility: hidden;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}

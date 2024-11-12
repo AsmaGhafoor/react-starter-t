@@ -1,0 +1,11 @@
+/* src/components/Cards/Cards.css */
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+}

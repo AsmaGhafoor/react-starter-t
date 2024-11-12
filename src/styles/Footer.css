@@ -1,0 +1,34 @@
+/* src/components/Layout/Footer.css */
+
+/* Adjust link styling */
+.footer-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #0056b3; /* Change to a custom color on hover */
+}
+
+/* Adjust the padding and background color of the footer */
+footer {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 2rem 0;
+}
+
+/* Logo styling */
+.footer-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Styling for subscription input */
+.footer-subscribe .input-group input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.footer-subscribe .input-group button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
